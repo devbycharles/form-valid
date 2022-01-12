@@ -1,0 +1,120 @@
+html body {
+  background-image: url(../intro-component-with-signup-form-master/images/bg-intro-desktop.png);
+  background-color: #ff7a7a;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container-fluid {
+  margin-top: 6rem;
+  max-width: 1920px;
+  width: 85%;
+}
+
+/** Left Side */
+h1 {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.paraOne {
+  font-size: 1.3rem;
+  width: 80%;
+}
+
+h1,
+.paraOne {
+  color: #fff;
+}
+
+
+/** Right Side */
+#freeTrial {
+  border-radius: 1rem;
+  background-color: #5646c0;
+  box-shadow: 0px 8px rgba(62, 60, 73, 0.2);
+  color: #fff;
+}
+
+h5 {
+  font-weight: 200;
+}
+
+.seven {
+  font-weight: 700;
+}
+
+#inputForm {
+  border-radius: 1rem;
+  box-shadow: 0px 8px rgba(62, 60, 73, 0.2);
+}
+
+.btn {
+  padding: 20px;
+  font-size: 1.4rem;
+  background-color: #38cc8c;
+  background: #38cc8c;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0px 5px #27c07e;
+}
+
+.termsPara {
+  color: #b9b6d3;
+}
+
+.terms {
+  color: hsl(0, 100%, 74%);
+}
+
+/* Hover - Onclick */
+.btn:hover {
+  color: #fff;
+  background-color: rgba(56, 204, 140, 0.7);
+}
+
+.btn, 
+.btn:hover {
+  background-color: #38cc8c;
+  border-color: #38cc8c;
+}
+
+.btn:active,
+.btn:focus {
+  color: #fff;
+  background-color: #38cc8c !important;
+  border-color: #38cc8c !important;
+  box-shadow: 0 0 0 0.2rem rgba(56, 204, 140, 0.5) !important;
+}
+
+input:active,
+input:focus {
+  border-color: #5646c0 !important;
+  box-shadow: 0 0 0 0.2rem rgba(86, 70, 192, 0.5) !important;
+}
+
+
+/** Mobile View */
+@media (max-width: 768px){
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .paraOne {
+    font-size: 1.2rem;
+    text-align: center;
+    width: 100%;
+  }
+  button {
+    font-size: 1rem !important;
+    text-align: center;
+  }
+  .termsPara {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  form {
+    height: 520px;
+  }
+}
